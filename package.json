@@ -23,7 +23,7 @@
     "prepush": "yarn lint && yarn flow && yarn test",
     "prepublish": "yarn build",
     "flow": "flow status",
-    "build": "./node_modules/.bin/babel src -d lib --copy-files --delete-dir-on-start",
+    "build": "node ./node_modules/@babel/cli/bin/babel.js src -d lib --copy-files --delete-dir-on-start",
     "prettier": "prettier --write './**/*.js' && eslint './**/*.js' --fix",
     "lint": "eslint .",
     "lint-json": "eslint --format=json . > ./__coverage__/eslint.json",
