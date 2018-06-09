@@ -7,8 +7,8 @@ const Keyv = require('keyv');
 let keyv;
 
 module.exports = (options: CreateOptions): Keyv => {
-  if (keyv) {
-    return keyv;
+  if (!keyv) {
+    keyv = new Keyv(options);
   }
-  return new Keyv(options);
+  return keyv;
 };
