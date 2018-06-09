@@ -1,0 +1,88 @@
+{
+  "name": "@contentacms/redis",
+  "version": "0.0.1",
+  "description": "Redis wrapper for ContentaJS, a drop in replacement for the LRU in-memory cache.",
+  "main": "lib/factory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentacms/contentajsRedis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/contentacms/contentajsRedis/issues"
+  },
+  "homepage": "https://github.com/contentacms/contentajsRedis#readme",
+  "author": "Mateu Aguiló Bosch <mateu.aguilo.bosch@gmail.com> (e0ipso)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "NODE_ENV=test jest --coverage",
+    "test-ci": "NODE_ENV=test jest --coverage --ci --runInBand",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "precommit": "lint-staged && npm run flow",
+    "emdaer": "emdaer --yes && git add *.md",
+    "prepush": "npm run lint && npm run flow && npm test",
+    "prepublish": "npm run build",
+    "flow": "flow status",
+    "build": "./node_modules/.bin/babel src -d lib --copy-files --delete-dir-on-start",
+    "prettier": "prettier --write './**/*.js' && eslint './**/*.js' --fix",
+    "lint": "eslint .",
+    "lint-json": "eslint --format=json . > ./__coverage__/eslint.json",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@keyv/redis": "^1.3.8",
+    "keyv": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/node": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-flow": "^7.0.0-beta.49",
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-angular": "^7.0.1",
+    "@emdaer/cli": "^3.2.3",
+    "@emdaer/plugin-contributors-details-github": "^3.2.3",
+    "@emdaer/plugin-import": "^3.2.3",
+    "@emdaer/plugin-license-reference": "^3.2.3",
+    "@emdaer/plugin-shields": "^3.2.3",
+    "@emdaer/plugin-value-from-package": "^3.2.3",
+    "@emdaer/transform-prettier": "^3.2.3",
+    "@emdaer/transform-table-of-contents": "^3.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "^23.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-problems": "^0.1.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-better": "^0.1.5",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "flow-bin": "^0.74.0",
+    "husky": "^0.14.3",
+    "jest": "^23.1.0",
+    "jest-express": "^1.6.0",
+    "lint-staged": "^7.1.3",
+    "prettier": "^1.13.5",
+    "semantic-release": "^15.5.1",
+    "semantic-release-conventional-commits": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "analyzeCommits": "semantic-release-conventional-commits"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "keywords": [
+    "Contenta",
+    "CMS",
+    "headless",
+    "redis"
+  ]
+}
