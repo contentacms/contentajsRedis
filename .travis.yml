@@ -21,7 +21,7 @@ jobs:
       script:
         - yarn lint
         - yarn test-ci
-        - yarn add --no-lockfile coveralls rimraf
+        - yarn add --no-lockfile @babel/cli coveralls rimraf
         # Report coverage to coveralls.io
         - cat ./__coverage__/lcov.info | ./node_modules/coveralls/bin/coveralls.js
         - rimraf ./__coverage__
