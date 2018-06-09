@@ -21,6 +21,7 @@ jobs:
       script:
         - npm run lint
         - npm run test-ci
+        - npm install coveralls
         # Report coverage to coveralls.io
         - cat ./__coverage__/lcov.info | ./node_modules/coveralls/bin/coveralls.js
         - rimraf ./__coverage__
