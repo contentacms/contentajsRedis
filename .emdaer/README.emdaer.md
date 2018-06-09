@@ -17,12 +17,12 @@
  - '@emdaer/plugin-shields'
  - shields:
      - alt: 'Travis'
-       image: 'travis/contentacms/contentajs.svg'
-       link: 'https://travis-ci.org/contentacms/contentajs/'
+       image: 'travis/contentacms/redis.svg'
+       link: 'https://travis-ci.org/contentacms/redis/'
        style: 'flat-square'
      - alt: 'Coverage'
-       image: 'coveralls/github/contentacms/contentajs.svg'
-       link: 'https://coveralls.io/github/contentacms/contentajs/'
+       image: 'coveralls/github/contentacms/redis.svg'
+       link: 'https://coveralls.io/github/contentacms/redis/'
        style: 'flat-square'
      - alt: 'Documented with emdaer'
        image: 'badge/📓-documented%20with%20emdaer-F06632.svg'
@@ -32,26 +32,8 @@
 
 <!--emdaer-p
   - '@emdaer/plugin-import'
-  - path: .emdaer/docs/why.md
-    runEmdaer: false
--->
-
-<!--emdaer-p
-  - '@emdaer/plugin-import'
-  - path: .emdaer/docs/features.md
-    runEmdaer: false
--->
-
-<!--emdaer-p
-  - '@emdaer/plugin-import'
   - path: .emdaer/docs/install.md
     runEmdaer: true
--->
-
-<!--emdaer-p
-  - '@emdaer/plugin-import'
-  - path: .emdaer/docs/notes.md
-    runEmdaer: false
 -->
 
 ## Contributors
