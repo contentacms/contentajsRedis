@@ -1,6 +1,6 @@
 {
   "name": "@contentacms/redis",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Redis wrapper for ContentaJS, a drop in replacement for the LRU in-memory cache.",
   "main": "lib/factory",
   "repository": {
