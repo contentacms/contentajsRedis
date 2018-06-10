@@ -5,7 +5,7 @@
 -->
 
 <!--
-  emdaerHash:a57cbc49dee3d2cff11f97f9a945b52a
+  emdaerHash:d746b9cdabfcb6fce01bfcc5c7b276fa
 -->
 
 <h1 id="contentajs-redis-img-align-right-src-logo-svg-alt-contenta-logo-title-contenta-logo-width-100-">ContentaJS - Redis <img align="right" src="./logo.svg" alt="Contenta logo" title="Contenta logo" width="100"></h1>
@@ -23,7 +23,7 @@ need to install it inside of a ContentaJS project.</p>
 <li><a href="#license">License</a></li>
 </ul>
 <!-- tocstop -->
-<p><a href="https://travis-ci.org/contentacms/redis/"><img src="https://img.shields.io/travis/contentacms/redis.svg?style=flat-square" alt="Travis"></a> <a href="https://coveralls.io/github/contentacms/redis/"><img src="https://img.shields.io/coveralls/github/contentacms/redis.svg?style=flat-square" alt="Coverage"></a> <a href="https://github.com/emdaer/emdaer"><img src="https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square" alt="Documented with emdaer"></a></p>
+<p><a href="https://travis-ci.org/contentacms/contentajsRedis/"><img src="https://img.shields.io/travis/contentacms/redis.svg?style=flat-square" alt="Travis"></a> <a href="https://coveralls.io/github/contentacms/contentajsRedis/"><img src="https://img.shields.io/coveralls/github/contentacms/redis.svg?style=flat-square" alt="Coverage"></a> <a href="https://github.com/emdaer/emdaer"><img src="https://img.shields.io/badge/📓-documented%20with%20emdaer-F06632.svg?style=flat-square" alt="Documented with emdaer"></a></p>
 <h2 id="installation">Installation</h2>
 <p>In order to use Redis as your cache back-end in ContentaJS you will need to:</p>
 <h3 id="install">Install</h3>
