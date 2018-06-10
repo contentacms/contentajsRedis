@@ -18,11 +18,11 @@
  - shields:
      - alt: 'Travis'
        image: 'travis/contentacms/redis.svg'
-       link: 'https://travis-ci.org/contentacms/redis/'
+       link: 'https://travis-ci.org/contentacms/contentajsRedis/'
        style: 'flat-square'
      - alt: 'Coverage'
        image: 'coveralls/github/contentacms/redis.svg'
-       link: 'https://coveralls.io/github/contentacms/redis/'
+       link: 'https://coveralls.io/github/contentacms/contentajsRedis/'
        style: 'flat-square'
      - alt: 'Documented with emdaer'
        image: 'badge/📓-documented%20with%20emdaer-F06632.svg'
