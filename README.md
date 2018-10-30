@@ -42,6 +42,9 @@ with:</p>
 
 ```yaml
 # NOTE: Append the 'redis' section under 'plugins'
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/contentacms/contentajsRedis.svg)](https://greenkeeper.io/)
+
 applicationCache:
   activePlugin: redis # <--- ACTIVATE REDIS
   plugins:
