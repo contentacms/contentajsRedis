@@ -5,7 +5,7 @@ In order to use Redis as your cache back-end in ContentaJS you will need to:
 Install this module in your ContentaJS forked project:
 
 ```
-yarn add @contentajs/redis
+yarn add @contentacms/redis
 ```
  
  ### Add the Redis configuration
