@@ -5,7 +5,7 @@
 -->
 
 <!--
-  emdaerHash:b55632b53c7a328f9a9d4074d4d73904
+  emdaerHash:00a608c160468152d268a497a67379cc
 -->
 
 <h1 id="contentajs-redis-img-align-right-src-logo-svg-alt-contenta-logo-title-contenta-logo-width-100-">ContentaJS - Redis <img align="right" src="./logo.svg" alt="Contenta logo" title="Contenta logo" width="100"></h1>
@@ -29,7 +29,7 @@ need to install it inside of a ContentaJS project.</p>
 <h3 id="install">Install</h3>
 <p>Install this module in your ContentaJS forked project:</p>
 <pre><code>
-yarn add @contentacms/redis
+npm install @contentacms/redis
 </code></pre>
 <h3 id="add-the-redis-configuration">Add the Redis configuration</h3>
 <p>Add the Redis configuration to your configuration files in ContentaJS, and
@@ -42,9 +42,6 @@ with:</p>
 
 ```yaml
 # NOTE: Append the 'redis' section under 'plugins'
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/contentacms/contentajsRedis.svg)](https://greenkeeper.io/)
-
 applicationCache:
   activePlugin: redis # <--- ACTIVATE REDIS
   plugins:
