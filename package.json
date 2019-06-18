@@ -45,7 +45,7 @@
     "@emdaer/plugin-documentation": "^3.2.3",
     "@emdaer/plugin-image": "^3.2.3",
     "@emdaer/plugin-import": "^3.2.3",
-    "@emdaer/plugin-license-reference": "^3.2.3",
+    "@emdaer/plugin-license-reference": "^3.2.5",
     "@emdaer/plugin-shields": "^3.2.3",
     "@emdaer/plugin-value-from-package": "^3.2.3",
     "@emdaer/transform-prettier": "^3.2.3",
