@@ -48,7 +48,7 @@
     "@emdaer/plugin-license-reference": "^3.2.3",
     "@emdaer/plugin-shields": "^3.2.3",
     "@emdaer/plugin-value-from-package": "^3.2.3",
-    "@emdaer/transform-prettier": "^3.2.3",
+    "@emdaer/transform-prettier": "^3.2.6",
     "@emdaer/transform-table-of-contents": "^3.2.3",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
