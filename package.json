@@ -41,7 +41,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@commitlint/config-angular": "^7.1.2",
     "@emdaer/cli": "^3.2.3",
-    "@emdaer/plugin-contributors-details-github": "^3.2.3",
+    "@emdaer/plugin-contributors-details-github": "^3.2.6",
     "@emdaer/plugin-documentation": "^3.2.3",
     "@emdaer/plugin-image": "^3.2.3",
     "@emdaer/plugin-import": "^3.2.3",
