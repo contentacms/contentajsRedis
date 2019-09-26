@@ -67,7 +67,7 @@
     "flow-typed": "^2.5.1",
     "husky": "^1.1.2",
     "jest": "^23.6.0",
-    "lint-staged": "^8.1.0",
+    "lint-staged": "^9.4.0",
     "prettier": "^1.14.3",
     "semantic-release": "^15.10.5",
     "semantic-release-conventional-commits": "^2.0.1"
